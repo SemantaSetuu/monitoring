@@ -1,0 +1,8 @@
+﻿<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Allure Test Suite">
+    <test name="Map Health Tests">
+        <classes>
+            <class name="tests.MapHealthTest"/>
+        </classes>
+    </test>
+</suite>

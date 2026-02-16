@@ -1,0 +1,68 @@
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+*.log
+
+### Maven Wrapper ###
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings
+bin/
+out/
+
+### Test Results ###
+allure-results/
+test-output/
+allure-report/
+target/surefire-reports/
+target/failsafe-reports/
+
+### Eclipse ###
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+*.code-workspace
+
+### OS Files ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+### Logs ###
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
