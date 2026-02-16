@@ -201,8 +201,7 @@ public class MapHealthTest {
         System.out.println("Checking map load time...");
         long loadTime = System.currentTimeMillis();
         Assert.assertTrue(loadTime < 5000, "Map load time exceeds threshold!");
-        // Add a comment or change a print statement
-        System.out.println("Testing automatic Jenkins build!");
+
     }
 
 }
