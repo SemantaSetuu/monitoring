@@ -1,6 +1,6 @@
 ## 🎯 Project Overview
 
-### A Seleniuma and TestNG-based automation framework that monitors **[Leaflet](https://leafletjs.com/) - an open-source JavaScript map** for availability, performance, and GPS accuracy.
+### A Selenium and TestNG-based automation framework that monitors **[Leaflet](https://leafletjs.com/) - an open-source JavaScript map** for availability, performance, and GPS accuracy.
 
 **Test Target:** `https://leafletjs.com/examples/quick-start/example.html`
 
