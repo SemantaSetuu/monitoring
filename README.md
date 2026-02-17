@@ -166,7 +166,7 @@ Installation & Execution
 
 # Clone the repository
 ```bash
-git clone https://github.com/yourusername/monitoring.git
+git clone https://github.com/SemantaSetuu/monitoring.git
 cd monitoring
 ```
 
