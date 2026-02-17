@@ -154,9 +154,9 @@ Pipeline Overview
 
 ## 🚀 Quick Start
 ### Prerequisites
-Java JDK 17+
+Java JDK 17
 
-Maven 3.9+
+Maven 3.9
 
 Chrome Browser
 
