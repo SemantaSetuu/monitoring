@@ -1,23 +1,29 @@
-# A Selenium TestNG-based automation framework that monitors web-based map applications for availability, performance, and GPS accuracy. Built with industry-standard tools and integrated with Jenkins CI/CD for automated test execution
+## 🎯 Project Overview
 
-## 🎯 Project Goal
-### Monitor critical map infrastructure by automatically verifying:
-- Check	Threshold	Why It Matters
-- Map Availability	UI must load	System is operational
-- Response Time	< 2000ms	User experience SLA
-- GPS Accuracy	±0.001 tolerance	Location precision
+### A Seleniuma and TestNG-based automation framework that monitors **[Leaflet](https://leafletjs.com/) - an open-source JavaScript map** for availability, performance, and GPS accuracy.
+
+**Test Target:** `https://leafletjs.com/examples/quick-start/example.html`
+
   
-## Real-World Applications
+## 🎯 **Project Goal**
 
- 🚖 Ride-sharing apps (Uber/Lyft) - Monitor driver map interface
+Automatically verify that a web-based map application:
 
- 📦 Logistics platforms (Amazon/DHL) - Track delivery locations
+| Check | What It Tests | How It's Tested |
+|-------|---------------|-----------------|
+| **Map Availability** | Map container loads and is visible | `WebDriverWait` for map element |
+| **Response Time** | Time from click to popup appears | `System.currentTimeMillis()` measurement |
+| **GPS Accuracy** | Returned coordinates match expected values | Parse popup text, compare with expected |
 
-🚁 Drone control systems - Validate GPS coordinates
+### Test Parameters
+- **Expected Latitude:** 51.505
+- **Tolerance:** ±0.001
+- **SLA Threshold:** < 2000ms
 
-🚑 Emergency dispatch (911) - Ensure system availability
-
-🗺️ Navigation apps (Google Maps) - Performance monitoring
+### Sample Result
+- **Actual Latency:** 95ms
+- **Actual Latitude:** 51.505003
+- **GPS Drift:** 0.000003
 
 ## 🛠️ Tools & Technologies
 
